@@ -1,8 +1,8 @@
 class Twitteur
 
 require 'twitter'
-require 'dotenv'
-Dotenv.load
+#require 'dotenv'
+#Dotenv.load
 
 def initialize(tweet)
   @tweet = tweet
